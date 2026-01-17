@@ -65,8 +65,8 @@
       transform: translateY(-4px);
       box-shadow: 0 10px 28px rgba(0,0,0,0.7);
     }
-    /* Tailscale-Button */
-    .tiny-tailscale-btn {
+    /* Passwörter-Button */
+    .passwd-btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -82,7 +82,7 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.3);
       cursor: pointer;
     }
-    .tiny-tailscale-btn:hover {
+    .passwd-btn:hover {
       background: rgba(255,255,255,0.9);
     }
     /* Texte */
@@ -131,12 +131,14 @@
   </style>
 </head>
 <body>
+<!-- Bitte die IP-Addressen Ändern und die Icons für die Tailscale verwaltng und auch für die passwd btn -->
+<!-- Empfohlen ist dass der rawtext.HTML Passwortgeschützt ist! -->
   <div id="title">Server Dashboard</div>
   <div id="server-grid">
     <!-- Proxmox -->
     <div class="server-box" id="proxmox">
       <div class="server-header">
-	<a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">⚙️</a>
+	<a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">ೀ</a>
         Proxmox
       </div>
       <div class="button-container">
@@ -157,7 +159,7 @@
     <!-- OPNsense -->
     <div class="server-box" id="opnsense">
       <div class="server-header">
-        <a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">⚙️</a>
+        <a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">ೀ</a>
 	OPNsense
       </div>
       <div class="button-container">
@@ -168,9 +170,9 @@
     <!-- Wazuh -->
     <div class="server-box" id="wazuh">
       <div class="server-header">
-	<a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">⚙️</a>
+	<a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">ೀ</a>
         <!-- Login-Info Button -->
-        <a class="tiny-terminal-btn" href="rawtext.html" target="_self" title="Login-Infos">🔐</a>
+        <a class="passwd-btn" href="rawtext.html" target="_self" title="Login-Infos">ೀ</a>
         Wazuh
       </div>
       <div class="button-container">
@@ -181,7 +183,7 @@
     <!-- Pi-hole -->
     <div class="server-box" id="pihole">
       <div class="server-header">
-       <a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">⚙️</a>
+       <a class="tiny-tailscale-btn" href="https://login.tailscale.com/admin/machines/10.0.0.0" target="_self" title="Tailscale-Verwaltung">ೀ</a>
         Pi-hole
       </div>
       <div class="button-container">
